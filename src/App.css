@@ -1,0 +1,43 @@
+.dead{
+background-color: red;
+color: white;
+}
+.unhealthy{
+background-color: yellow;
+color: black;
+}
+.healthy{
+background-color: green;
+color:white;
+}
+.cantwlak{
+background-color: antiquewhite;
+color: white;
+}
+.row{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.col{
+    width: 15%;
+    margin: 1%;
+}
+img {
+    min-height: 115px;
+    width: 40%;
+    object-fit: contain;
+}
+.col>div {
+    padding: 1px;
+    height: 200px;
+}
+
+.is-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.is-flex p{
+    margin: 0 20px;
+}
